@@ -1,0 +1,103 @@
+ body {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.calc {
+  box-shadow: 5px 5px 15px #000;
+  max-width: 275px;
+  min-width: 275px;
+  height: 100%;
+  margin: auto;
+  border-radius: 15px;
+}
+
+.icon {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.col-btns {
+  border-radius: 100%;
+  font-size: 1.4rem;
+  width: 15px;
+  height: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 3px;
+}
+
+.clr-bg {
+  font-size: 1rem;
+}
+
+.col-btns p {
+  display: none;
+  margin: 0;
+}
+
+.icon:hover {
+  cursor: pointer;
+}
+
+.icon:hover p {
+  display: block;
+}
+
+.red {
+  background-color: red;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.green {
+  background-color: #00FF00;
+}
+
+.txt-area {
+  font-size: 3rem;
+  padding: 10px 10px 0;
+  border-radius: 15px 15px 0 0;
+  background: #444;
+}
+
+.txt-area > p {
+  display: flex;
+  justify-content: flex-end;
+  margin: 0;
+  font-size: 4.5rem;
+  color: #eee;
+  font-weight: lighter;
+}
+
+.row {
+  height: 30px;
+}
+
+.inner-txt {
+  border: 1px solid #444;
+  padding: 10px;
+  font-size: 2rem;
+  cursor: pointer;
+  color: #eee;
+  background: #888;
+}
+
+.clr-bg {
+  background: rgba(0, 0, 0, 0.8);
+}
+
+.org {
+  background: #ffa600;
+}
+
+.btm-bdr-rad-lft {
+  border-radius: 0 0 0 15px;
+}
+
+.btm-bdr-rad-rgt {
+  border-radius: 0 0 15px 0;
+}
